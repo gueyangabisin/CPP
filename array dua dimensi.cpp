@@ -6,8 +6,11 @@ int main ()
 {
 // nilai array
     int nomor  [3] [4]  = {
+                            //baris 1
                             {6,4,8,2},
+                            //baris 2
                             {3,1,9,7},
+                            //baris 3
                             {4,5,2,7}
                         };
 
