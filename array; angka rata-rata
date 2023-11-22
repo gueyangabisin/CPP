@@ -1,0 +1,17 @@
+#include <iostream>
+#include <array>
+using namespace std;
+int main ()
+{
+// nilai array.
+    array <int, 5> nomor ={23,45,87,45,99};
+    int total;
+
+    for (int i=0; i<nomor.size(); i++){
+        total+=nomor[i];
+    }
+// kalkulasi rata-rata
+    int r=total/nomor.size();
+    cout<<"rata-rata = "<<r;
+    return 0;
+}
