@@ -22,5 +22,13 @@ int main ()
         }
          cout <<endl;
     }
+    float a,b,c,d;
+    a=(6+3+4)/3;
+    b=(4+1+5)/3;
+    c=(8+9+2)/3;
+    d=(2+7+7)/3;
+    cout <<"rata-rata =\n";
+    cout <<"    "<<a<<"     "<<b<<"     "<<c<<"     "<<d;
+    
     return 0;
 }
